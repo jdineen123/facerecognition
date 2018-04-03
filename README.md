@@ -20,6 +20,7 @@ text alerts/email alerts if door is unlocked/locked. text alerts if face identif
 
 
 Potentially, recreate as a multinomial class problem. 
+Currently only works to register probabilities of Jake v NotJake, which works for the purpose of unlocking a door.
 
 Essay on Facerec here:
 https://docs.google.com/document/d/1y1686M5OGtVe0uXv3HMK9fIEPLW32EeWks_7TmHs9PU/edit
