@@ -1,0 +1,94 @@
+backend: tensorflow
+class_name: Sequential
+config:
+- class_name: Dense
+  config:
+    activation: linear
+    activity_regularizer: null
+    batch_input_shape: !!python/tuple [null, 128]
+    bias_constraint: null
+    bias_initializer:
+      class_name: Zeros
+      config: {}
+    bias_regularizer: null
+    dtype: float32
+    kernel_constraint: null
+    kernel_initializer:
+      class_name: VarianceScaling
+      config: {distribution: uniform, mode: fan_avg, scale: 1.0, seed: null}
+    kernel_regularizer: null
+    name: dense_17
+    trainable: true
+    units: 512
+    use_bias: true
+- class_name: Activation
+  config: {activation: relu, name: activation_21, trainable: true}
+- class_name: Dropout
+  config: {name: dropout_13, noise_shape: null, rate: 0.2, seed: null, trainable: true}
+- class_name: Dense
+  config:
+    activation: linear
+    activity_regularizer: null
+    bias_constraint: null
+    bias_initializer:
+      class_name: Zeros
+      config: {}
+    bias_regularizer: null
+    kernel_constraint: null
+    kernel_initializer:
+      class_name: VarianceScaling
+      config: {distribution: uniform, mode: fan_avg, scale: 1.0, seed: null}
+    kernel_regularizer: null
+    name: dense_18
+    trainable: true
+    units: 512
+    use_bias: true
+- class_name: Activation
+  config: {activation: relu, name: activation_22, trainable: true}
+- class_name: Dropout
+  config: {name: dropout_14, noise_shape: null, rate: 0.2, seed: null, trainable: true}
+- class_name: Dense
+  config:
+    activation: linear
+    activity_regularizer: null
+    bias_constraint: null
+    bias_initializer:
+      class_name: Zeros
+      config: {}
+    bias_regularizer: null
+    kernel_constraint: null
+    kernel_initializer:
+      class_name: VarianceScaling
+      config: {distribution: uniform, mode: fan_avg, scale: 1.0, seed: null}
+    kernel_regularizer: null
+    name: dense_19
+    trainable: true
+    units: 512
+    use_bias: true
+- class_name: Activation
+  config: {activation: relu, name: activation_23, trainable: true}
+- class_name: Dropout
+  config: {name: dropout_15, noise_shape: null, rate: 0.2, seed: null, trainable: true}
+- class_name: Dense
+  config:
+    activation: linear
+    activity_regularizer: null
+    bias_constraint: null
+    bias_initializer:
+      class_name: Zeros
+      config: {}
+    bias_regularizer: null
+    kernel_constraint: null
+    kernel_initializer:
+      class_name: VarianceScaling
+      config: {distribution: uniform, mode: fan_avg, scale: 1.0, seed: null}
+    kernel_regularizer: null
+    name: dense_20
+    trainable: true
+    units: 2
+    use_bias: true
+- class_name: Activation
+  config: {activation: softmax, name: activation_24, trainable: true}
+- class_name: Activation
+  config: {activation: softmax, name: activation_25, trainable: true}
+keras_version: 2.1.4
