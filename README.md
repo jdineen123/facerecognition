@@ -37,6 +37,16 @@ Essay on Facerec here:
 https://docs.google.com/document/d/1y1686M5OGtVe0uXv3HMK9fIEPLW32EeWks_7TmHs9PU/edit
 
 
+I wanted to research and determine if there was distance present between frames in the case of a still imaged adversarial attacked - Ref: FaceRec_ResearchingLivenessDetection.py.
+
+
+
+
+
+
+
+
+
 
 
 References:
