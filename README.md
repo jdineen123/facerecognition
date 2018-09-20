@@ -1,5 +1,5 @@
 # facerecognition
-Face Recognition with MLP for Binomial Classification.
+Face Recognition with MLP for Binary Classification.
 
 -Uses Geitgey's python wrappers of Dlib for feature extraction from images. (https://github.com/ageitgey/face_recognition)
 
